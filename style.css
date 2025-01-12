@@ -7,6 +7,15 @@
       "wdth" 100;
   }
   /* Shared style */
+  .sec-background{
+    background-color: #FFF8F3;
+  }
+  .section-title{
+    font-size: 48;
+    font-size: bold;
+
+    color: #181818 ;
+  }
   .text-primary{
     color: #FD6E0A;
   }
@@ -108,4 +117,36 @@ height: 262px;
   background-repeat: no-repeat;
   background-color: rgb(255, 248, 243);
   background-position: top left,bottom right ;
+}
+.section-description{
+  font-size: 18px;
+  color: #757575;
+}
+/* About style */
+.about{
+  border-radius: 10px;
+  /* width:1140px ;
+  height:570px ; */
+ padding: 130px 150px;
+ margin-top: 130px;
+}
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+ text-align: center;
+ 
+}
+.about-items{
+  display: flex;
+  justify-content: space-around;
+ 
+
+}
+.item-description{
+  color: #757575;
+  font-weight: 700;
+  
+}
+.item-title{
+  color: #757575;
 }
